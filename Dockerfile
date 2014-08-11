@@ -10,7 +10,7 @@
 # > docker build -t containerdart github.com/nkratzke/containerdart
 # > docker run -p 8888:8080 -d containerdart
 
-FROM octohost/ubuntu:trusty
+FROM ubuntu:trusty
 
 # Install Dart SDK. Do not touch this until you know what you are doing.
 # We do not install darteditor nor dartium because this is a server container.
